@@ -18,7 +18,10 @@ The raw BMP image:
 ![BMP image](/Percolation/src/resources/yoda-80.bmp?raw=true)  
 
 The output of the PercolationVisualizer:  
-![PercolationVisualizer out image](/Percolation/src/resources/yoda-80.png?raw=true)  
+![PercolationVisualizer out image](/Percolation/src/resources/yoda-80.png?raw=true) 
+
+Execution of the PercolationVisualizer on the custom BMP:  
+![PercolationVisualizer animation](/Percolation/src/resources/yoda-80.gif?raw=true)
 
 ## Assessment Summary
 Compilation:  PASSED  
