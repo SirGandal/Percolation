@@ -10,3 +10,11 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+
+/checkstyle-6.1
+/findbugs-2.0.3
+/Percolation/bin
+Percolation/src/InteractivePercolationVisualizer.java
+Percolation/src/PercolationVisualizer.java
+Percolation/src/resources
+log.txt
