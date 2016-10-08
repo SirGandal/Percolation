@@ -12,7 +12,13 @@ I found particularly interesting trying to solve the problem of "backwash". By u
 The backwash problem can be solved with the aid of a mirror union-find data structure that differs from the main one because it misses the bottom virtual site. This prevents all the site at the bottom to be virtually connected with each other thus preventing backwash when the system does indeed percolates.
 
 ## For fun
-As suggested [here](http://coursera.cs.princeton.edu/algs4/assignments/percolation.html) I created my own percolation file starting from a solved nonogram [[link](http://en.japonskie.ru/pics/full/master_yoda.gif)]. I have designed the bitmap image in Photoshop and created a class that converts the black and white BMP image to the TXT file format as accepted by the [PercolationVisualizer](http://coursera.cs.princeton.edu/algs4/testing/percolation/PercolationVisualizer.java) provided as a testing tool for this assignment.
+As suggested [here](http://coursera.cs.princeton.edu/algs4/assignments/percolation.html) I created my own percolation file starting from a solved nonogram [[link](http://en.japonskie.ru/pics/full/master_yoda.gif)]. I have designed the bitmap image in Photoshop and created a class that converts the black and white BMP image to the TXT file format as accepted by the [PercolationVisualizer](http://coursera.cs.princeton.edu/algs4/testing/percolation/PercolationVisualizer.java) provided as a testing tool for this assignment. Files can be found in /Percolation/src/resources/. A PSD template is available as well to create other custom BMP images.
+
+The raw BMP image:  
+![BMP image](/Percolation/src/resources/yoda-80.bmp?raw=true)  
+
+The output of the PercolationVisualizer:  
+![PercolationVisualizer out image](/Percolation/src/resources/yoda-80.png?raw=true)  
 
 ## Assessment Summary
 Compilation:  PASSED  
