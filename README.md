@@ -11,6 +11,9 @@ Given a composite systems comprised of randomly distributed insulating and metal
 I found particularly interesting trying to solve the problem of "backwash". By using just one union-find data structure that uses the trick seen in class that creates a virtual top and bottom site I can't seem to find a solution. The approach with two virtual sites seems to be the best one when it comes to understand if a system percolates or not. Without the two nodes we would need to loop for each site at the bottom sites and check the connection for each top site thus resulting in poor runtime performances.
 The backwash problem can be solved with the aid of a mirror union-find data structure that differs from the main one because it misses the bottom virtual site. This prevents all the site at the bottom to be virtually connected with each other thus preventing backwash when the system does indeed percolates.
 
+## For fun
+As suggested [here](http://coursera.cs.princeton.edu/algs4/assignments/percolation.html) I created my own percolation file starting from a solved nonogram [[link](http://en.japonskie.ru/pics/full/master_yoda.gif)]. I have designed the bitmap image in Photoshop and created a class that converts the black and white BMP image to the TXT file format as accepted by the [PercolationVisualizer](http://coursera.cs.princeton.edu/algs4/testing/percolation/PercolationVisualizer.java) provided as a testing tool for this assignment.
+
 ## Assessment Summary
 Compilation:  PASSED  
 Style:        PASSED  
