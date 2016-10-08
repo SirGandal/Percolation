@@ -1,0 +1,37 @@
+Stats using QuickFind
+n = 200 trials = 100
+elapsed time              1.755000
+mean=                     0.593042
+stddev=                   0.010147
+95% confidence interval=  0.591053, 0.595031
+
+n = 400 trials = 100
+elapsed time              16.560000
+mean=                     0.593034
+stddev=                   0.006334
+95% confidence interval=  0.591792, 0.594275
+
+n = 800 trials = 100
+elapsed time              171.294000
+mean=                     0.593132
+stddev=                   0.003255
+95% confidence interval=  0.592494, 0.593770
+
+n = 200 trials = 200
+elapsed time              3.404000
+mean=                     0.593047
+stddev=                   0.010575
+95% confidence interval=  0.591581, 0.594512
+
+n = 200 trials = 400
+elapsed time              7.209000
+mean=                     0.593658
+stddev=                   0.010016
+95% confidence interval=  0.592676, 0.594639
+
+
+n = 200 trials = 800
+elapsed time              13.599000
+mean=                     0.592482
+stddev=                   0.009526
+95% confidence interval=  0.591822, 0.593143

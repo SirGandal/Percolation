@@ -1,0 +1,36 @@
+Stats using Weighted Quick Find
+n = 200 trials = 100
+elapsed time              0.453000
+mean=                     0.593919
+stddev=                   0.010056
+95% confidence interval=  0.591948, 0.595889
+
+n = 400 trials = 100
+elapsed time              1.921000
+mean=                     0.592819
+stddev=                   0.005875
+95% confidence interval=  0.591668, 0.593971
+
+n = 800 trials = 100
+elapsed time              14.807000
+mean=                     0.592038
+stddev=                   0.003297
+95% confidence interval=  0.591392, 0.592684
+
+n = 200 trials = 200
+elapsed time              0.790000
+mean=                     0.593273
+stddev=                   0.009970
+95% confidence interval=  0.591891, 0.594655
+
+n = 200 trials = 400
+elapsed time              1.570000
+mean=                     0.592736
+stddev=                   0.009810
+95% confidence interval=  0.591774, 0.593697
+
+n = 200 trials = 800
+elapsed time              3.036000
+mean=                     0.592634
+stddev=                   0.009608
+95% confidence interval=  0.591968, 0.593300
