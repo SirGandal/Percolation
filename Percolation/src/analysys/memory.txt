@@ -1,0 +1,13 @@
+Memory analisys of an instance of the Percolation class:
+
+-overhead: 16 bytes
+-int[][] directions is a 2*4 int array: 8*4 bytes
+-int size: 4 bytes
+-int[] grid is a n*n int array: n*n*4 bytes
+-padding: 8 bytes
+-WeightedQuickUnionUF ufMain = new WeightedQuickUnionUF((n * n) + 2): uses an array of int of size n*n+2: (n*n+2)*4 bytes
+-reference to ufMain: 8 bytes
+-WeightedQuickUnionUF ufSupport = new WeightedQuickUnionUF((n * n) + 1): uses an array of int of size n*n+2: (n*n+1)*4 bytes
+-reference to ufSupport: 8 bytes
+
+Memory ~ n^2 [Total memory cost: 16 + 32 + 4 + 4*n^2 + 4*n^2 +8 + 4*n^2 + 4 + 8]
